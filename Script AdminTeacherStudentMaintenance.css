@@ -77,3 +77,57 @@ body {
 .page.entry {
     animation: page-slide-in 0.6s ease-out both;
 }
+
+.userName {
+    background-color: #121254;
+    color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.password {
+    background-color: #121254;
+    color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.role-logo {
+    border-radius: 40%;
+}
+
+p {
+    background-color: #121254;
+    color: #fff;
+    padding: 5px 5px;
+    text-align: center;
+    border-radius: 10px;
+    max-width: 10%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    top: 17%;
+    transform: translateX(-50%);
+}
+
+.login {
+    width: 15%;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.back {
+    text-decoration: none;
+    background-color: #ececec;
+    color: #000000;
+    top: 100%;
+    padding: 0.5%;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid #6e6e6e;
+    box-shadow: inset 1px 1px 2px #ffffff, inset -1px -1px 2px #888888;
+    text-align: center;
+}
