@@ -9,16 +9,54 @@
 </head>
 
 <body class="role-page page-entry">
+
     <img src="logo.png" class="role-logo" alt="Smart Classroom logo">
+
     <p>Log In As Teacher</p><br><br>
-    <form action="TeacherPanel.html" method="post">
+
+    <form id="loginForm">
+
         <label for="username" class="userName">userId:</label>
         <input type="text" id="username" name="username" required><br><br>
+
         <label for="password" class="password">Password:</label>
         <input type="password" id="password" name="password" required><br><br>
+
         <input type="submit" value="Login" class="login">
-    </form><br><br>
+
+        <p id="errorMessage"></p>
+
+    </form>
+
+    <br><br>
+
     <a href="MainPanel.html" class="back">Back</a>
+
+
+    <script>
+
+        document.getElementById("loginForm").addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+
+            if (username === "teacher" && password === "1234") {
+
+                window.location.href = "TeacherDashboard.html";
+
+            } else {
+
+                document.getElementById("errorMessage").innerText =
+                    "Invalid username or password";
+
+            }
+
+        });
+
+    </script>
+
 </body>
 
 </html>
