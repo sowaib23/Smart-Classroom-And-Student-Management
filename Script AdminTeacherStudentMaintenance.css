@@ -40,9 +40,9 @@ body {
 
     padding: 35px;
 
-    background: rgba(255, 255, 255, 0.05);
+    background: #000000;
 
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgb(255, 252, 252);
 
     border-radius: 18px;
 
@@ -105,12 +105,12 @@ body {
 
     padding: 12px 14px;
 
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgb(255, 252, 252);
     border-radius: 10px;
 
     outline: none;
 
-    background: rgba(255, 255, 255, 0.08);
+    background:  #000000;
 
     color: #ffffff;
 
