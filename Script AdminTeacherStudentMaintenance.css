@@ -64,19 +64,15 @@ body {
 }
 
 
-/* Page Title (heading) */
+/* Heading / Text */
 
-.page-title {
-    background-color: #121254;
-    color: #fff;
-    padding: 8px 20px;
-    border-radius: 10px;
-    display: inline-block;
-
+.role-page p {
     font-size: 28px;
     font-weight: 700;
 
     margin: 5px 0 25px;
+
+    color: #ffffff;
 
     letter-spacing: 0.5px;
 
@@ -188,19 +184,6 @@ body {
 }
 
 
-/* Error Message */
-
-#errorMessage {
-    color: #ff6b6b;
-    font-size: 14px;
-    margin-top: 10px;
-}
-
-#errorMessage:empty {
-    display: none;
-}
-
-
 /* Page Animation */
 
 @view-transition {
@@ -254,28 +237,4 @@ body {
 .page-entry,
 .page.entry {
     animation: page-slide-in 0.6s ease-out both;
-}
-
-.role-logo {
-    border-radius: 40%;
-}
-
-.login {
-    width: 15%;
-    height: 40px;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-.back {
-    text-decoration: none;
-    background-color: #ececec;
-    color: #000000;
-    top: 100%;
-    padding: 0.5%;
-    font-size: 15px;
-    border-radius: 10px;
-    border: 2px solid #6e6e6e;
-    box-shadow: inset 1px 1px 2px #ffffff, inset -1px -1px 2px #888888;
-    text-align: center;
 }
